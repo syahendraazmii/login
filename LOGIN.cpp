@@ -20,6 +20,7 @@ int main(){
 
 	system("cls");
 	
+	cout<<"Selamat Datang!"<<endl;
 	cout<<"Username Anda : ";
 	for (int i=0; i<(lengthUser); i++){
 		cout<<UNPass[i];
