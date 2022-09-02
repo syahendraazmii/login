@@ -20,13 +20,12 @@ int main(){
 
 	system("cls");
 	
-	cout<<"Selamat Datang!"<<endl;
-	cout<<"Username Anda : ";
+	cout<<"Selamat Datang! " ;
 	for (int i=0; i<(lengthUser); i++){
 		cout<<UNPass[i];
 		
 		if(i == lengthUser -1){
-			cout<<" Password Anda : ";
+			cout<<endl <<"Password Anda : ";
 			for ( int j = i; j<(lengthUser + lengthPass); j++){
 				cout << UNPass[j+1];
 			}
